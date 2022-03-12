@@ -1,0 +1,152 @@
+
+<body>
+    <div id="pokebola">
+        <div class="esfera-centro"></div>
+        <div class="meialua1"></div>
+        <div class="meialua2"></div>
+        <div class="esferacentro"></div>
+         <div class="tarja"></div>
+         <div class="contorno"></div>
+         <div class="botao"></div>
+         <div class="logo"> <img src="1200px-International_Pokémon_logo.svg.png" alt=""></div>
+    </div>
+    
+   <style>
+       body{
+        background-color: #fc0;
+       }
+       #pokebola{
+         margin-top: 0;
+       }
+      .tarja{
+          width: 500px ;
+          height:70px ;
+          border-style: solid;
+          border-width: 0;
+          margin-top: 210px;
+          margin-left: 650px;
+          background-color: #313131;
+          border-radius: 5px;
+          box-shadow: 0 5px 9px 0 #0000009c;
+          right: 295px;
+          position: relative;
+          top: -471px;
+      }
+      .esfera{
+          width: 500px; 
+          height: 500px ;
+          border-style: solid;
+          margin-top: 0;
+          margin-left:650px;
+          border-radius: 250px;
+          position: absolute;
+          box-shadow: 20px 18px 20px 0 #000000;
+      }
+      .meialua1{
+          width: 500px;
+          height: 250px;
+          background-color: #550000;
+          margin-top: 0;
+          margin-left: 650px;
+          border-radius: 250px 250px 0 0;
+          position: absolute;
+          box-shadow: inset 10px 10px 20px 0 #dadada;
+          right: 400px;
+          width: 487px;
+          border: solid 6px black;
+      }
+      .meialua2{
+          width: 500px;
+          height: 250px;
+          border-style: solid;
+          border-width: 0;
+        
+          margin-top: 250px;
+          margin-left: 650px;
+          border-radius:  0 0 250px 250px ;
+          position: absolute;
+          box-shadow: inset -5px -5px 20px 10px #77777777;
+          right: 400px;
+          background-color: #ffffff;
+          width: 487px;
+          border: solid 6px black;
+
+      }
+      .esfera-centro{
+          background-color: #313131;
+          width: 200px;
+          height: 200px;
+          border-style: solid;
+          border-width: 0;
+          margin-top: 150px;
+          margin-left: 800px;
+          border-radius: 250px;
+          position: absolute;
+          box-shadow: inset 5px 5px 15px 0 #ffffff;
+          right: 546px;
+          
+      }
+      .esferacentro{
+          background-color: #313131;
+         
+          border-style: solid;
+          border-width: 0;
+          margin-top: 150px;
+          margin-left: 800px;
+          border-radius: 250px;
+          position: absolute;
+         
+          right: 546px;
+          width: 170px;
+          height: 170px;
+          box-shadow: inset 5px 5px 15px 0 #000;
+         
+          position: relative;
+          right: 260px;
+          bottom: -168px;
+      }
+      .botao{
+          background-color: #bfbfbf;
+          width: 100px;
+          height: 100px;
+          border-style: solid;
+          border-width: 0;
+          margin-top: 250px;
+          margin-left: 840px;
+          border-radius: 250px;
+          position: absolute;
+          box-shadow: inset 5px 5px 15px 5px #000000;
+        
+          right: 600px;
+          top: 104px;
+       
+                }
+      .contorno{
+          background-color: #ffffff;
+          width: 125px;
+          height: 125px;
+          border-style: solid;
+          border-width: 1px;
+          margin-top: 187px;
+          margin-left: 816px;
+          border-radius: 250px;
+          position: absolute;
+         
+          right: 587px;
+          top: 153px;
+        
+      }
+      .logo{
+          display: flex;
+          margin-top: 347px;
+          margin-left: 600px;
+          position: absolute;
+          top: -344px;
+          left: -202px;
+      }
+      .logo img{
+          width: 50%;
+      }
+   </style>
+   
+</body>
